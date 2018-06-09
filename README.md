@@ -2,7 +2,7 @@
 
 The New York Times Scraper is an app that scrapes the newest 20 articles from the New York Times website (https://www.newtyorktimes.com) and presents them in a tasteful, clean interface in which the user can click on and comment on individual stories.  
 
-## Technologies Used
+## Technologies I Used
 - Node.js
 - Express.js
 - MongoDB
@@ -28,10 +28,10 @@ Check out the application at https://glacial-mountain-50350.herokuapp.com/ on He
 To install the application, open the terminal or command prompt and run the commands below:
 
 ``` Javascript
-	git clone git@github.com:louisboehling/NewsScraperApp.git
-	cd NewsScraperApp
-    npm install
-    mongod
+git clone git@github.com:louisboehling/NewsScraperApp.git
+cd NewsScraperApp
+npm install
+mongod
 ```
 	
 ### Running Locally
