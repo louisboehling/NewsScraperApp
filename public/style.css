@@ -29,6 +29,11 @@
     width: 100%;
 }
 
+#articleTitle {
+    font-family: "FarnhamRegularItalic";
+    font-size: 22px;
+}
+
 
 h1 {
     font-family: "GTWalsheimMedium";
