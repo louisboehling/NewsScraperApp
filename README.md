@@ -39,7 +39,7 @@ mongod
 To run the application locally and access it in your browser, open [server.js](./server.js) in a separate terminal window than the one running *mongod* and run the command below.
 
 ``` Javascript
-	node server.js
+node server.js
 ```
 	
 The application will now be running locally in your browser at the URL `http://localhost:3000`.
