@@ -27,12 +27,9 @@ app.use(bodyParser.urlencoded({ extended: true }));
 app.use(express.static("public"));
 
 // If deployed, use the deployed database. Otherwise use the local mongoScraper database
-//---------------------------------------------------------
 var databaseUri = "mongodb://localhost/newsScraper";
-//---------------------------------------------------------
 
 // Connect to the Mongo DB
-
 mongoose.connect(process.env.MONGODB_URI || databaseUri, () => console.log(process.env)); 
 
 // Routes
