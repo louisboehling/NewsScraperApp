@@ -30,45 +30,45 @@
 }
 
 #articleTitle {
-    font-family: "FarnhamRegularItalic";
+    font-family: "FRI";
     font-size: 22px;
 }
 
 
 h1 {
-    font-family: "GTWalsheimMedium";
+    font-family: "WMR";
     font-size: 72px;
 }
 
 h1 i {
-    font-family: "FarnhamRegularItalic";
+    font-family: "FRI";
 }
 
 h2 {
-    font-family: "GTWalsheimRegular";
+    font-family: "WR";
 }
 
 h2 i {
-    font-family: "FarnhamRegularItalic";
+    font-family: "FRI";
 }
 
 p {
-    font-family: "GTWalsheimRegular";
+    font-family: "WR";
 }
 
 /* fonts */
 
 @font-face{
-    font-family: 'GTWalsheimRegular';
-    src: url('./fonts/GT-Walsheim-Regular.woff'), url('./fonts/GT-Walsheim-Regular.woff') format('woff');
+    font-family: 'WR';
+    src: url('./fonts/WR.woff'), url('./fonts/WR.woff') format('woff');
 }
 
 @font-face{
-    font-family: 'GTWalsheimMedium';
-    src: url('./fonts/GT-Walsheim-medium-web.woff'), url('./fonts/GT-Walsheim-medium-web.woff') format('woff');
+    font-family: 'WMR';
+    src: url('./fonts/WMR.woff'), url('./fonts/WMR.woff') format('woff');
 }
 
 @font-face{
-    font-family: 'FarnhamRegularItalic';
-    src: url('./fonts/FarnhamText-RegularItalic.otf'), url('./fonts/FarnhamText-RegularItalic.otf') format('otf');
+    font-family: 'FRI';
+    src: url('./fonts/FRI.otf'), url('./fonts/FRI.otf') format('otf');
 }
